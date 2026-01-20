@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Mission & Vision */
 .mission-vision {
     background-color: #f8fafc;
-    padding: 80px 0;
+    padding: 40px 0 80px;
 }
 
 .mission-vision-grid {
@@ -793,6 +793,17 @@ h1, h2, h3, h4, h5, h6 {
     gap: 40px;
     align-items: center;
     margin: 40px 0;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-image {
+        order: -1;
+    }
 }
 
 .about-image img {
