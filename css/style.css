@@ -62,11 +62,16 @@ html {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .whatsapp-float {
-        width: 50px;
-        height: 50px;
-        font-size: 25px;
-        bottom: 20px;
-        right: 20px;
+        width: 60px;
+        height: 60px;
+        font-size: 32px;
+        bottom: 25px;
+        right: 25px;
+        box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+    }
+    
+    .whatsapp-float i {
+        margin-top: 2px; /* Slight adjustment for better centering */
     }
 }
 
