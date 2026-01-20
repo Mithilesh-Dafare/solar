@@ -647,13 +647,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Responsive Adjustments */
 @media (max-width: 992px) {
-    .about-grid,
-    .mission-vision-grid {
+    .about-grid {
         grid-template-columns: 1fr;
         gap: 40px;
     }
     
-    .about-image {
+    .about-grid .about-image {
         order: -1;
     }
     
